@@ -118,7 +118,7 @@ nav ul li {
     cursor: pointer;
     display: none;
   }
-
+/* Hero section */
   .hero {
     display: flex;
     align-items: center;
@@ -132,7 +132,7 @@ nav ul li {
     height: 25rem;
     width: auto;
     border-radius: 1rem;
-    margin-top: 2rem;
+    margin: 2rem;
   }
   
   .bio {
@@ -149,4 +149,41 @@ nav ul li {
   .bio p {
     line-height: var(--line-height);
     padding: 0.3rem 0;
+  }
+
+  /* More about me */
+  .more-about {
+    background-color: var(--bg-color);
+    padding: 1rem 6rem;
+  }
+  
+  .more-about h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+  }
+  
+  .more-about p {
+    line-height: var(--line-height);
+    padding: 0.4rem;
+  }
+
+  /* Skills */
+  .skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .skill-header {
+    margin-bottom: 1rem;
+  }
+  
+  .skills-wrapper img {
+    padding: 1.25rem;
+  }
+  
+  .icon {
+    width: 11.875rem;
+    height: 11.25rem;
   }
